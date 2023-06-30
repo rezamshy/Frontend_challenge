@@ -2,8 +2,8 @@ function handleForm(event){
     event.preventDefault();
     const form = document.getElementById("emailGitForm");
     const formData = new FormData(form);
-    
-    fetch('https://httpbin.org/post', {
+
+    fetch('https://7pu263mpcarw3lhazop5ec7u7e0bclzu.lambda-url.us-east-1.on.aws/', {
         method: 'POST',
         headers: {
             'Content-Type' : 'application/json'
