@@ -26,13 +26,4 @@ function handleForm(event){
             console.log(data);
         })
         .catch(error => console.error(error));
-    
-        /*fetch('/submit-form', {
-        method: 'POST',
-        body: formData
-        })
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error(error));
-        */
 }
