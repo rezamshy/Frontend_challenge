@@ -10,7 +10,7 @@ function handleForm(event){
         },
         body: JSON.stringify({
             email: formData.get('email'),
-            git: formData.get('git')
+            githubRepoUrl: formData.get('githubRepoUrl')
         })
     })
         .then(res => {
